@@ -8,12 +8,9 @@ const Bilprima = (n: number) => {
             hasil++ ;
         }
     }
-
     if (hasil === 2) {
-
         return `${n} client`;
     } else {
-
         return `${n} admin`;
     }
 }
