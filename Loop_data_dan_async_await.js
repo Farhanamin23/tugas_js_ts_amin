@@ -3,6 +3,9 @@ let user = [
     { name: 'Doe', age: 22, job: 'writer' },
     { name: 'Don', age: 21, job: 'Coder' }];
 
+for (i = 0; i < user.length; i++){
+    console.log(i + "" + user[i] );
+}
 const send = usee =>
     new Promise(resolve =>
         setTimeout(() => resolve(usee), 1000)
