@@ -4,7 +4,7 @@ let user = [
     { name: 'Don', age: 21, job: 'Coder' }];
 
 for (i = 0; i < user.length; i++){
-    console.log(i + "" + user[i] );
+    console.log(i + "Data User" + user[i] );
 }
 const send = usee =>
     new Promise(resolve =>

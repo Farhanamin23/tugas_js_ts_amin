@@ -1,4 +1,4 @@
-var inputnumber = 100;
+var inputnumber = 1;
 if (inputnumber % 2 == 0) {
     console.log(' client');
 }
