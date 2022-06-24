@@ -3,12 +3,14 @@ let user = [
     { name: 'Doe', age: 22, job: 'writer' },
     { name: 'Don', age: 21, job: 'Coder' }];
 
-for (i = 0; i < user.length; i++){
-    console.log(i + "Data User" + user[i] );
+let arrayLength = user.length;
+
+for (let i = 0; i < arrayLength; i++) {
+    console.log(user[i]);
 }
 const send = usee =>
     new Promise(resolve =>
-        setTimeout(() => resolve(usee), 1000)
+        setTimeout(() => resolve(usee), 4000)
     );
 
     const sendAlluser = async () => {
@@ -18,5 +20,6 @@ const send = usee =>
     }
     console.log('Data Sudah terkirim');
 };
-console.log(user)
+console.log(arrayLength)
+
 sendAlluser()
