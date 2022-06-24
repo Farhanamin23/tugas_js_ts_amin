@@ -3,10 +3,9 @@ let user = [
     { name: 'Doe', age: 22, job: 'writer' },
     { name: 'Don', age: 21, job: 'Coder' }];
 
-let arrayLength = user.length;
-
-for (let i = 0; i < arrayLength; i++) {
-    console.log(user[i]);
+let arrayylength = user.length;
+for (i = 0; i < arrayylength; i++){
+    console.log(i + "name: " + user[i].name,"age: "+user[i].age,"Job: "+user[i].job );
 }
 const send = usee =>
     new Promise(resolve =>
@@ -20,6 +19,6 @@ const send = usee =>
     }
     console.log('Data Sudah terkirim');
 };
-console.log(arrayLength)
+console.log(arrayylength)
 
 sendAlluser()

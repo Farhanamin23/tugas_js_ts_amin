@@ -11,10 +11,9 @@ let data   = [{ nama: 'Harimau', makan: 'Daging', ukuran: 21 },
                 { nama: 'Harimau', makan: 'Daging', ukuran: 21 },
                 { nama: 'Harimau', makan: 'Daging', ukuran: 21 }];
     
-    let arrayLength = data.length;
-
-    for (let i = 0; i < arrayLength; i++) {
-    console.log(data[i]);
+    let arraylength=data.length    
+    for (i = 0; i < arraylength; i++){
+    console.log(i + "nama :" + data[i].nama,"makanan :"+data[i].makan,"Ukuran :"+data[i].ukuran );
 }
     const send = dat =>
         new Promise(resolve =>
@@ -28,5 +27,5 @@ let data   = [{ nama: 'Harimau', makan: 'Daging', ukuran: 21 },
         }
         console.log('Data Sudah terkirim');
 };
-console.log(arrayLength)
+console.log(arraylength)
 sendAlldata()
