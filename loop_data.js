@@ -23,7 +23,7 @@ let data   = [{ nama: 'Harimau', makan: 'Daging', ukuran: 21 },
         const sendAlldata = async () => {
         for (dat of data) {
             const userInfo = await send (dat);
-            console.log(`Mengambil data ${userInfo}`);
+            console.log(`Mengambil data... name:${userInfo.nama} makanan:${userInfo.makan} Ukuruan:${userInfo.ukuran}`);
         }
         console.log('Data Sudah terkirim');
 };

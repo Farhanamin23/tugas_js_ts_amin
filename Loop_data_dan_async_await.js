@@ -15,7 +15,7 @@ const send = usee =>
     const sendAlluser = async () => {
     for (usee of user) {
         const userInfo = await send (usee);
-        console.log(`Mengambil data ${userInfo}`);
+        console.log(`Mengambil data.. name:${userInfo.name} age:${userInfo.age} Job:${userInfo.job}`);
     }
     console.log('Data Sudah terkirim');
 };
