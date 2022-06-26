@@ -1,12 +1,13 @@
 let user = [
-    { name: 'John', age: 20, job: 'writer' },
+    { name: 'John',age: 20, job: 'writer' },
     { name: 'Doe', age: 22, job: 'writer' },
     { name: 'Don', age: 21, job: 'Coder' }];
 
 let arrayylength = user.length;
-for (i = 0; i < arrayylength; i++){
+for (i = 0; i < user.length; i++){
     console.log(i + "name: " + user[i].name,"age: "+user[i].age,"Job: "+user[i].job );
 }
+
 const send = usee =>
     new Promise(resolve =>
         setTimeout(() => resolve(usee), 4000)

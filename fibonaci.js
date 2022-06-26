@@ -1,7 +1,5 @@
-let inputNumber = 4   
-
+let inputNumber = 100
 function fibonaci(num) 
-
     {    
         if(num==1) 
             return 0 + ' client'; 

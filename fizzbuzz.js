@@ -1,6 +1,5 @@
 const input = 100;
-
-for (let i = 1; i <= 100; i++)
+for (let i = 1; i <= input; i++)
 {
     if (i % 15 == 0)
         console.log("FizzBuzz");
@@ -11,5 +10,4 @@ for (let i = 1; i <= 100; i++)
     else
         console.log(i);
 }
-
 console.log(input)
